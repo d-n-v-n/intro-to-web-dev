@@ -1,6 +1,28 @@
-/* Element selector that gives every p element a monospace font. */
+
+header {
+  font-family: "Comic Sans MS", "Comic Sans";
+}
+
+body {
+  background-color: hsl(153, 43%, 37%);
+  opacity: 0.9;
+  inline-size: 400;
+}
+footer {
+  font-family: "Comic Sans MS", "Comic Sans";}
+   
+
 p {
-  font-family: monospace;
+  text-indent: 25px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+nav {
+  font-size: 20px;
 }
 
 /* Class selector that gives elements with this class a big bold style. */
@@ -9,7 +31,25 @@ p {
   font-weight: bold;
 }
 
-/* ID selector that gives the element with this ID a red style. */
-#boldly {
-  color: red;
+.runeyText {
+  font-family: 'RuneScape UF'
 }
+
+.bodyContent {
+  background-color: hsl(54, 100%, 50%);
+  color: rgb(0, 0, 0);
+  inline-size: 350px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#p2{
+  background-color: white;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
